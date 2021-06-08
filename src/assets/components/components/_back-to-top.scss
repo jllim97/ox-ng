@@ -1,0 +1,23 @@
+.back-to-top-container {
+  border-radius: 50%;
+  padding: 0.5rem;
+  position:fixed;
+  bottom: 5%;
+  color: $backtop-font-color;
+  background-color: $backtop-bg;
+  z-index: 1000;
+  &.right {
+    right: 0;
+  }
+
+  &.left {
+    left: 0;
+  }
+
+  &.center {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  @include ox-ripple();
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+$theme-primary:  #47a7f5;
+$theme-secondary: cyan;
+$primary-color: $theme-primary;
+$secondary-color: $theme-secondary;
+$font-color-primary: white;
+$font-color-secondary: rgb(20, 20, 141);
+
+$button-border-width: 1px;
+$button-border-style: solid;
+$bg-button-primary: $primary-color;
+$bg-button-secondary-bg: $secondary-color;
+$border-button-primary: $button-border-width $button-border-style $primary-color;
+$border-button-secondary: $button-border-width $button-border-style $secondary-color;
+
+
+$backtop-bg: $bg-button-primary;
+$backtop-font-color: $font-color-primary;
+
+$ripple-color: #47a7f5;
+$ripple-active-color: #6eb9f7;
+$shadow-normal: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+$card-padding: 8px;
+

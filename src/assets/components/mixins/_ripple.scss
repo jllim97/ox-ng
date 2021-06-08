@@ -1,0 +1,18 @@
+@mixin ox-ripple {
+  background-position: center;
+  transition: background 0.8s;
+  background-color: $bg-button-primary;
+  border-width: $button-border-width;
+  border-style: $button-border-style;
+  border-color: $bg-button-primary;
+
+  &:hover {
+    background: $ripple-color radial-gradient(circle, transparent 1%, $ripple-color 1%) center/15000%;
+  }
+
+  &:active {
+    background-color: $ripple-active-color;
+    background-size: 100%;
+    transition: background 0s;
+  }
+}
